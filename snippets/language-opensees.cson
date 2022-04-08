@@ -86,12 +86,12 @@
     'prefix': 'geomTransf Corotational (3D)'
     'body': 'geomTransf Corotational $transfTag $vecxzX $vecxzY $vecxzZ'
 # Sections
-  'groundMotion Plain...':
-    'prefix': 'groundMotion Plain'
-    'body': 'section Elastic $secTag $E $A $Iz <$G $alphaY>'
-  'groundMotion Interpolated...':
-    'prefix': 'groundMotion Interpolated'
-    'body': 'section Elastic $secTag $E $A $Iz $Iy $G $J <$alphaY $alphaZ>'
+
+
+
+
+
+
   'section Fiber...':
     'prefix': 'section Fiber'
     'body': 'section Fiber $secTag <-GJ $GJ> {\n\tfiber...\n\tpatch...\n\tlayer...\n\t...\n}'
